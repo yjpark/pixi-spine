@@ -817,7 +817,7 @@ declare module PIXI.spine.core {
         setSkin(newSkin: Skin): void;
         getAttachmentByName(slotName: string, attachmentName: string): Attachment;
         getAttachment(slotIndex: number, attachmentName: string): Attachment;
-        setAttachment(slotName: string, attachmentName: string): void;
+        setAttachment(slotName: string, attachmentName?: string): void;
         findIkConstraint(constraintName: string): IkConstraint;
         findTransformConstraint(constraintName: string): TransformConstraint;
         findPathConstraint(constraintName: string): PathConstraint;
